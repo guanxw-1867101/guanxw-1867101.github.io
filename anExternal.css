@@ -1,0 +1,101 @@
+/*
+  Guanxuan Wu
+  2020/4/8
+  CSE 154 AG
+  TA: Roland,Kyle Christian
+  The "styles.css" provides CSS-formatted stylesheets
+  linked to both "about.html" and "nothing.html".
+*/
+
+/*
+  Note: This body ruleset is to get you started
+*/
+
+body {
+  background-color: cornflowerblue;
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+nav {
+  background-color: light-grey;
+}
+
+.center {
+  text-align: center;
+}
+
+.whiteback {
+  background-color: white;
+}
+
+.grey {
+  color: grey;
+}
+
+#imgsource {
+  color: lightgrey;
+  font-size: x-small;
+}
+
+img.representer {
+  border: 2px solid grey;
+  border-radius: 6px;
+  padding: 8px;
+  width: 400px;
+  height: 300px;
+}
+
+blockquote {
+  border: 8px solid lightgrey;
+  border-radius: 8px;
+  padding: 16px;
+  height: 100px;
+}
+
+.large {
+  font-size: large;
+}
+
+.placeholder {
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+.automargin {
+  margin: auto;
+}
+
+#testarticle {
+  border: 12px solid black;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+#codedemo {
+  border-top: 4px solid blue;
+  border-bottom: 2px solid red;
+  border-left: 12px solid grey;
+  border-right: 3px solid grey;
+  background-color: #EEEEFF;
+  padding: 2px;
+  width: 75%;
+}
+
+#articleheader {
+  font-style: italic;
+  width: 45%;
+}
+
+footer {
+  font-size: small;
+}
+
+#quotesource {
+  text-align: right;
+}
+
+#floater {
+  float: right;
+}
